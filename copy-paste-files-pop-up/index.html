@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pop up Example </title>
+</head>
+<body>
+<!--Modal-->
+    <!--<button data-modal-target="#modal">Open Modal</button>-->
+    <div class="modal active" id="modal">
+        <div class="modal-header">
+            <div class="title">Restaurant Update</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            <h2>Due to new restrictions, we will only be accepting <span>Takeouts</span> & <span>Deliveries</span>
+                starting this Friday (11/27) until further notice.
+            </h2>
+
+            <h3>Temporary hours for Taking out [Starting 11/27]:</h3>
+            <h4>Sunday-Thursday: 12PM - 9:40PM [Last Call]</h4>
+            <h4>Friday-Saturday: 12PM - 10:40PM [Last Call]</h4>
+
+            <h3 class="tel-number">T. 562. 439. 1950</h3>
+            <h3 class="order-now"><a href="order-online.html">Order Now</a><span></span></h3>
+
+        </div>
+    </div>
+    <div class="active" id="overlay">
+    </div>
+    <!--Modal Ends-->
+
+    <script src="script.js"></script>
+</body>
+</html>
